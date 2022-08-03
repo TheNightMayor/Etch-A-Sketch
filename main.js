@@ -20,4 +20,4 @@ function drawGrid(length, height) {
     }
   }
 }
-drawGrid(16, 16);
+drawGrid(50, 50);

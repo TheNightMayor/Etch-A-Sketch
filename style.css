@@ -3,16 +3,26 @@
 
 #grid {
     display:flex;
-    flex-flow:row;
+    flex-flow:column;
+    width: 50vw;
+    height: 50vw;
+    
+}
+.row {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .square {
-    width: 50px;
-    height: 50px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
     background-color: purple;
     outline: aqua 2px solid;
 }
+
 .add-color {
     background-color: aqua;
-    outline: purple;
+    outline: purple 2px solid;
 }
