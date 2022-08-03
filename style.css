@@ -1,9 +1,9 @@
 #grid-container {
-    display: flex;
 }
 
 #grid {
-    display: flex;
+    display:flex;
+    flex-flow:row;
 }
 
 .square {
@@ -11,4 +11,8 @@
     height: 50px;
     background-color: purple;
     outline: aqua 2px solid;
+}
+
+.row {
+
 }
