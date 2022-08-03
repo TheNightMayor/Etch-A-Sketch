@@ -14,6 +14,8 @@ function drawGrid(length, height) {
     function drawSquare() {
       const square = document.createElement("div");
       square.classList.add("square");
+      square.addEventListener('mouseenter', e => square.classList.toggle('add-color'));
+      // square.addEventListener('mouseleave', e => square.classList.remove('add-color'));
       row.appendChild(square);
     }
   }
