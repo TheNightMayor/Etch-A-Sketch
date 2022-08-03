@@ -1,0 +1,14 @@
+#grid-container {
+    display: flex;
+}
+
+#grid {
+    display: flex;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    outline: aqua 2px solid;
+}
