@@ -4,8 +4,8 @@
 #grid {
     display:flex;
     flex-flow:column;
-    width: 50vw;
-    height: 50vw;
+    width: 75vw;
+    height: 75vw;
     
 }
 .row {
